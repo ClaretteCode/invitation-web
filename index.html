@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<style>
+    .btn-primary {
+        background-color: #F76D8D;
+        color: white;
+        border: 1px solid #F76D8D;
+    }
+    
+    .btn-primary:hover {
+        background-color: #C65771;
+        color: white;
+        border: 1px solid #F76D8D;
+    }
+    
+    .btn-secondary {
+        background-color: white;
+        color: #F76D8D;
+        border: 1px solid #F76D8D;
+    }
+    
+    .btn-secondary:hover {
+        background-color: #F6E8EB;
+        color: #F76D8D;
+        border: 1px solid #F76D8D;
+    }
+    
+    .shadow {
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<body>
+
+    <!--- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 w-100" style="position: fixed;">
+        <div class="container-fluid p-2" style="background-color: #F76D8D;">
+            <!-- <a class="navbar-brand" href="#">Menu</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center w-100">
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" aria-current="page" href="#home" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#tema" style="color: white;">Tema</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#fitur" style="color: white;">Fitur</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#faq" style="color: white;">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- NAVBAR END -->
+
+    <!--- HOME START -->
+    <div id="home" class="p-5" style="height: fit-content; background: url(images/background.png);">
+        <div class="row pt-4 h-100 d-flex justify-content-center">
+            <div class="col-lg-4 col-sm-8 my-auto p-4" style="background-color: rgba(255, 255, 255, .5); border-radius: 30px;">
+                <h1>Undangan Online</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="18" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_993)">
+                    <path d="M19.4042 1.5H13.6419C13.4627 1.49987 13.2909 1.57065 13.1638 1.69688L1.64375 13.2141C1.39157 13.4675 1.25 13.8105 1.25 14.168C1.25 14.5255 1.39157 14.8685 1.64375 15.1219L7.12813 20.6063C7.38163 20.8585 7.72468 21 8.08227 21C8.43986 21 8.78291 20.8585 9.03641 20.6063L20.5531 9.09375C20.6794 8.96665 20.7501 8.79476 20.75 8.61563V2.85C20.7509 2.67283 20.7167 2.49724 20.6494 2.33333C20.5821 2.16943 20.4831 2.02045 20.358 1.89497C20.2329 1.76949 20.0843 1.67 19.9206 1.60221C19.7569 1.53443 19.5814 1.49969 19.4042 1.5Z" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 6.75C16.7033 6.75 16.4133 6.66203 16.1666 6.49721C15.92 6.33238 15.7277 6.09812 15.6142 5.82403C15.5006 5.54994 15.4709 5.24834 15.5288 4.95737C15.5867 4.66639 15.7296 4.39912 15.9393 4.18934C16.1491 3.97956 16.4164 3.8367 16.7074 3.77882C16.9983 3.72094 17.2999 3.75065 17.574 3.86418C17.8481 3.97771 18.0824 4.16997 18.2472 4.41665C18.412 4.66332 18.5 4.95333 18.5 5.25C18.5 5.64783 18.342 6.02936 18.0607 6.31066C17.7794 6.59197 17.3978 6.75 17 6.75Z" fill="#F76D8D"/>
+                    <path d="M11.2812 22.5L23.5625 10.2188C23.6236 10.1572 23.6716 10.0839 23.7038 10.0034C23.736 9.92288 23.7517 9.83671 23.75 9.75V3.75" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3_993">
+                    <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    Pricelist
+                </button>
+                <button class="btn btn-primary">Demo</button>
+            </div>
+            <div class="col-lg-4 col-sm-8 d-flex justify-content-center">
+                <img src="images/img1.png" alt="" style="max-height: 500px;">
+            </div>
+        </div>
+    </div>
+    <div class="p-5" style="height: fit-content; background-color: white;">
+        <div class="row h-100 d-flex justify-content-center">
+            <div class="col-lg-8 col-sm-12 my-auto">
+                <img src="images/img.png" alt="" style="max-width: -webkit-fill-available;">
+            </div>
+            <div class="col-lg-4 col-sm-8 my-auto p-4">
+                <h1>Undangan Online</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="18" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_993)">
+                    <path d="M19.4042 1.5H13.6419C13.4627 1.49987 13.2909 1.57065 13.1638 1.69688L1.64375 13.2141C1.39157 13.4675 1.25 13.8105 1.25 14.168C1.25 14.5255 1.39157 14.8685 1.64375 15.1219L7.12813 20.6063C7.38163 20.8585 7.72468 21 8.08227 21C8.43986 21 8.78291 20.8585 9.03641 20.6063L20.5531 9.09375C20.6794 8.96665 20.7501 8.79476 20.75 8.61563V2.85C20.7509 2.67283 20.7167 2.49724 20.6494 2.33333C20.5821 2.16943 20.4831 2.02045 20.358 1.89497C20.2329 1.76949 20.0843 1.67 19.9206 1.60221C19.7569 1.53443 19.5814 1.49969 19.4042 1.5Z" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 6.75C16.7033 6.75 16.4133 6.66203 16.1666 6.49721C15.92 6.33238 15.7277 6.09812 15.6142 5.82403C15.5006 5.54994 15.4709 5.24834 15.5288 4.95737C15.5867 4.66639 15.7296 4.39912 15.9393 4.18934C16.1491 3.97956 16.4164 3.8367 16.7074 3.77882C16.9983 3.72094 17.2999 3.75065 17.574 3.86418C17.8481 3.97771 18.0824 4.16997 18.2472 4.41665C18.412 4.66332 18.5 4.95333 18.5 5.25C18.5 5.64783 18.342 6.02936 18.0607 6.31066C17.7794 6.59197 17.3978 6.75 17 6.75Z" fill="#F76D8D"/>
+                    <path d="M11.2812 22.5L23.5625 10.2188C23.6236 10.1572 23.6716 10.0839 23.7038 10.0034C23.736 9.92288 23.7517 9.83671 23.75 9.75V3.75" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3_993">
+                    <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    Pricelist
+                </button>
+                <button class="btn btn-primary">Demo</button>
+            </div>
+        </div>
+    </div>
+    <!--- HOME END -->
+
+    <!--- TEMA START -->
+    <div id="tema" class="p-5" style="height: fit-content; background: url(images/background.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="row h-100 d-flex justify-content-center">
+            <div class="col-lg-6 col-sm-10 my-auto p-4 text-center" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px;">
+                <h1>Pilihan Tema Undangan</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                <label style="color: #F76D8D; font-style: italic; font-weight: 500;">*Click untuk melihat tema</label>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center w-100 p-3">
+            <div class="col-lg-4 col-sm-8 m-3 d-flex justify-content-center" style="flex-direction: column;">
+                <div class="row">
+                    <img src="images/tema1.png" alt="">
+                </div>
+                <div class="container p-3">
+                    <div class="row text-center">
+                        <div class="col-5 pt-1">
+                            <h4>Tema 1</h4>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-primary">Lihat Demo</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="text-center" for="" style="font-style: italic;">Elegan, Feminine</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-8 m-3 d-flex justify-content-center" style="flex-direction: column;">
+                <div class="row">
+                    <img src="images/tema2.png" alt="">
+                </div>
+                <div class="container p-3">
+                    <div class="row text-center">
+                        <div class="col-5 pt-1">
+                            <h4>Tema 2</h4>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-primary">Lihat Demo</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="text-center" for="" style="font-style: italic;">Elegan, Feminine</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center w-100 p-3">
+            <div class="col-lg-3 col-sm-6 m-3 d-flex justify-content-center" style="flex-direction: column;">
+                <div class="row">
+                    <img src="images/tema4.png" alt="">
+                </div>
+                <div class="container p-3">
+                    <div class="row text-center">
+                        <div class="col-5 pt-1">
+                            <h4>Tema 1</h4>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-primary">Lihat Demo</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="text-center" for="" style="font-style: italic;">Elegan, Feminine</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 m-3 d-flex justify-content-center" style="flex-direction: column;">
+                <div class="row">
+                    <img src="images/tema3.png" alt="">
+                </div>
+                <div class="container p-3">
+                    <div class="row text-center">
+                        <div class="col-5 pt-1">
+                            <h4>Tema 2</h4>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-primary">Lihat Demo</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="text-center" for="" style="font-style: italic;">Elegan, Feminine</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 m-3 d-flex justify-content-center" style="flex-direction: column;">
+                <div class="row">
+                    <img src="images/tema5.png" alt="">
+                </div>
+                <div class="container p-3">
+                    <div class="row text-center">
+                        <div class="col-5 pt-1">
+                            <h4>Tema 2</h4>
+                        </div>
+                        <div class="col-7">
+                            <button class="btn btn-primary">Lihat Demo</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="text-center" for="" style="font-style: italic;">Elegan, Feminine</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--- TEMA END -->
+
+    <!--- FITUR START -->
+    <div id="fitur" class="p-5" style="height: fit-content; background-image: linear-gradient(#FFB6C7, #B5D7FF);">
+        <div class="row h-100 d-flex justify-content-center">
+            <div class="col-lg-6 col-sm-10 my-auto p-4 text-center">
+                <h1>Fitur</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="18" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_993)">
+                    <path d="M19.4042 1.5H13.6419C13.4627 1.49987 13.2909 1.57065 13.1638 1.69688L1.64375 13.2141C1.39157 13.4675 1.25 13.8105 1.25 14.168C1.25 14.5255 1.39157 14.8685 1.64375 15.1219L7.12813 20.6063C7.38163 20.8585 7.72468 21 8.08227 21C8.43986 21 8.78291 20.8585 9.03641 20.6063L20.5531 9.09375C20.6794 8.96665 20.7501 8.79476 20.75 8.61563V2.85C20.7509 2.67283 20.7167 2.49724 20.6494 2.33333C20.5821 2.16943 20.4831 2.02045 20.358 1.89497C20.2329 1.76949 20.0843 1.67 19.9206 1.60221C19.7569 1.53443 19.5814 1.49969 19.4042 1.5Z" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 6.75C16.7033 6.75 16.4133 6.66203 16.1666 6.49721C15.92 6.33238 15.7277 6.09812 15.6142 5.82403C15.5006 5.54994 15.4709 5.24834 15.5288 4.95737C15.5867 4.66639 15.7296 4.39912 15.9393 4.18934C16.1491 3.97956 16.4164 3.8367 16.7074 3.77882C16.9983 3.72094 17.2999 3.75065 17.574 3.86418C17.8481 3.97771 18.0824 4.16997 18.2472 4.41665C18.412 4.66332 18.5 4.95333 18.5 5.25C18.5 5.64783 18.342 6.02936 18.0607 6.31066C17.7794 6.59197 17.3978 6.75 17 6.75Z" fill="#F76D8D"/>
+                    <path d="M11.2812 22.5L23.5625 10.2188C23.6236 10.1572 23.6716 10.0839 23.7038 10.0034C23.736 9.92288 23.7517 9.83671 23.75 9.75V3.75" stroke="#F76D8D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3_993">
+                    <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    Pricelist
+                </button>
+                <button class="btn btn-primary">Demo</button>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px; min-height: 300px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.8125 25C30.8047 25 28.8633 24.1035 27.3438 22.4766C25.8662 20.8896 24.9639 18.7734 24.8047 16.5195C24.6348 14.1152 25.3682 11.9043 26.8692 10.293C28.3701 8.68164 30.4688 7.8125 32.8125 7.8125C35.1397 7.8125 37.2442 8.69727 38.7402 10.3047C40.251 11.9277 40.9863 14.1348 40.8164 16.5186C40.6533 18.7754 39.752 20.8906 38.2774 22.4756C36.7617 24.1035 34.8213 25 32.8125 25ZM45.6865 42.1875H19.9395C19.5255 42.1897 19.1166 42.0969 18.7441 41.9163C18.3716 41.7356 18.0456 41.472 17.791 41.1455C17.521 40.7916 17.3345 40.3812 17.2456 39.9451C17.1566 39.5089 17.1675 39.0583 17.2774 38.627C18.0996 35.3252 20.1367 32.5869 23.168 30.709C25.8584 29.043 29.2832 28.125 32.8125 28.125C36.4111 28.125 39.7461 29.0039 42.4522 30.6689C45.4902 32.5371 47.5303 35.291 48.3486 38.6328C48.4572 39.0645 48.4668 39.5151 48.3769 39.951C48.2869 40.387 48.0997 40.7969 47.8291 41.1504C47.5748 41.4753 47.2495 41.7377 46.8781 41.9175C46.5067 42.0973 46.0991 42.1896 45.6865 42.1875ZM14.3555 25.3906C10.919 25.3906 7.89747 22.1953 7.6172 18.2686C7.47853 16.2568 8.10548 14.3965 9.37501 13.0322C10.6309 11.6816 12.4024 10.9375 14.3555 10.9375C16.3086 10.9375 18.0664 11.6855 19.3291 13.0439C20.6084 14.4189 21.2334 16.2754 21.0869 18.2705C20.8067 22.1963 17.7861 25.3906 14.3555 25.3906ZM20.7676 28.4619C19.0498 27.6221 16.8203 27.2021 14.3565 27.2021C11.4795 27.2021 8.68556 27.9522 6.48829 29.3135C3.99708 30.8594 2.3213 33.1104 1.64454 35.8281C1.5455 36.219 1.53614 36.6273 1.61714 37.0223C1.69815 37.4174 1.86742 37.789 2.11232 38.1094C2.34469 38.4077 2.64238 38.6487 2.9825 38.814C3.32262 38.9792 3.6961 39.0642 4.07423 39.0625H14.9141C15.097 39.0625 15.2742 38.9982 15.4146 38.881C15.5551 38.7637 15.6499 38.6009 15.6826 38.4209C15.6934 38.3594 15.707 38.2978 15.7227 38.2373C16.5508 34.9111 18.4912 32.1006 21.3584 30.0518C21.4639 29.9757 21.5487 29.8746 21.6052 29.7575C21.6617 29.6405 21.6881 29.5111 21.682 29.3813C21.6759 29.2514 21.6374 29.1251 21.5702 29.0139C21.503 28.9026 21.409 28.8099 21.2969 28.7441C21.1436 28.6543 20.9678 28.5596 20.7676 28.4619Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Manajemen Tamu</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_17_244)">
+                    <path d="M6.58334 10.4167C6.58334 8.75915 7.24182 7.16943 8.41393 5.99733C9.58603 4.82523 11.1757 4.16675 12.8333 4.16675H33.6667C35.3243 4.16675 36.914 4.82523 38.0861 5.99733C39.2582 7.16943 39.9167 8.75915 39.9167 10.4167H42C43.1051 10.4167 44.1649 10.8557 44.9463 11.6371C45.7277 12.4185 46.1667 13.4783 46.1667 14.5834V17.4584C46.1666 20.0417 45.2065 22.5329 43.4729 24.4481C41.7394 26.3634 39.356 27.5662 36.7854 27.823L25.3333 28.9688V29.1667C26.4384 29.1667 27.4982 29.6057 28.2796 30.3871C29.061 31.1685 29.5 32.2283 29.5 33.3334V41.6668C29.5 42.7718 29.061 43.8316 28.2796 44.613C27.4982 45.3944 26.4384 45.8334 25.3333 45.8334H21.1667C20.0616 45.8334 19.0018 45.3944 18.2204 44.613C17.439 43.8316 17 42.7718 17 41.6668V33.3334C17 32.2283 17.439 31.1685 18.2204 30.3871C19.0018 29.6057 20.0616 29.1667 21.1667 29.1667V28.9688C21.1667 27.9356 21.5507 26.9392 22.244 26.1731C22.9374 25.407 23.8906 24.9258 24.9188 24.823L36.3729 23.6772C37.9149 23.5227 39.3446 22.8009 40.3844 21.6517C41.4242 20.5026 42 19.0082 42 17.4584V14.5834H39.9167C39.9167 16.241 39.2582 17.8307 38.0861 19.0028C36.914 20.1749 35.3243 20.8334 33.6667 20.8334H12.8333C11.1757 20.8334 9.58603 20.1749 8.41393 19.0028C7.24182 17.8307 6.58334 16.241 6.58334 14.5834V10.4167Z" fill="#F76D8D"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_17_244">
+                    <rect width="50" height="50" fill="white" transform="translate(0.333344)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <h3>Tema yang Menarik</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.1667 43.0001C14.5724 43.0001 17.3333 40.2392 17.3333 36.8334C17.3333 33.4277 14.5724 30.6667 11.1667 30.6667C7.76091 30.6667 5 33.4277 5 36.8334C5 40.2392 7.76091 43.0001 11.1667 43.0001Z" fill="#F76D8D" stroke="#F76D8D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M35.8333 40.9447C39.2391 40.9447 42 38.1838 42 34.778C42 31.3722 39.2391 28.6113 35.8333 28.6113C32.4276 28.6113 29.6667 31.3722 29.6667 34.778C29.6667 38.1838 32.4276 40.9447 35.8333 40.9447Z" fill="#F76D8D" stroke="#F76D8D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M42 6L17.3333 12.1667V20.3889L42 14.2222V6Z" fill="#F76D8D"/>
+                    <path d="M17.3333 36.8333V20.3889M17.3333 20.3889V12.1667L42 6V14.2222M17.3333 20.3889L42 14.2222M42 34.7778V14.2222" stroke="#F76D8D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3>Konten Beragam</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3125 11.0938C13.3125 9.47759 13.9545 7.92762 15.0973 6.78482C16.2401 5.64202 17.7901 5 19.4062 5C21.0224 5 22.5724 5.64202 23.7152 6.78482C24.858 7.92762 25.5 9.47759 25.5 11.0938C25.5 9.47759 26.142 7.92762 27.2848 6.78482C28.4276 5.64202 29.9776 5 31.5938 5C33.2099 5 34.7599 5.64202 35.9027 6.78482C37.0455 7.92762 37.6875 9.47759 37.6875 11.0938V11.1084C37.6875 11.279 37.6875 11.7665 37.5949 12.3125H42.5625C43.209 12.3125 43.829 12.5693 44.2861 13.0264C44.7432 13.4835 45 14.1035 45 14.75V17.1875C45 17.834 44.7432 18.454 44.2861 18.9111C43.829 19.3682 43.209 19.625 42.5625 19.625H8.4375C7.79103 19.625 7.17105 19.3682 6.71393 18.9111C6.25681 18.454 6 17.834 6 17.1875V14.75C6 14.1035 6.25681 13.4835 6.71393 13.0264C7.17105 12.5693 7.79103 12.3125 8.4375 12.3125H13.4051C13.3407 11.9144 13.3098 11.5116 13.3125 11.1084V11.0938ZM15.9157 12.3125H23.0625V11.0938C23.0625 10.6136 22.9679 10.1382 22.7842 9.69456C22.6004 9.25097 22.3311 8.8479 21.9916 8.50839C21.6521 8.16888 21.249 7.89956 20.8054 7.71582C20.3618 7.53207 19.8864 7.4375 19.4062 7.4375C18.9261 7.4375 18.4507 7.53207 18.0071 7.71582C17.5635 7.89956 17.1604 8.16888 16.8209 8.50839C16.4814 8.8479 16.2121 9.25097 16.0283 9.69456C15.8446 10.1382 15.75 10.6136 15.75 11.0938C15.75 11.3009 15.7549 11.7616 15.8597 12.1419C15.8743 12.2 15.8931 12.257 15.9157 12.3125ZM27.9375 12.3125H35.0842C35.1067 12.2569 35.1254 12.1999 35.1403 12.1419C35.2451 11.7616 35.25 11.3009 35.25 11.0938C35.25 10.1241 34.8648 9.19407 34.1791 8.50839C33.4934 7.82271 32.5634 7.4375 31.5938 7.4375C30.6241 7.4375 29.6941 7.82271 29.0084 8.50839C28.3227 9.19407 27.9375 10.1241 27.9375 11.0938V12.3125ZM42.5625 22.0625V40.3438C42.5625 41.3134 42.1773 42.2434 41.4916 42.9291C40.8059 43.6148 39.8759 44 38.9062 44H27.9375V22.0625H42.5625ZM12.0938 44C11.1241 44 10.1941 43.6148 9.50839 42.9291C8.82271 42.2434 8.4375 41.3134 8.4375 40.3438V22.0625H23.0625V44H12.0938Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Fitur Send Gift</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8542 20.542C42.7327 20.5361 42.6112 20.534 42.4896 20.5357H37.4167C33.2667 20.5357 29.7125 23.8295 29.7125 28.1253C29.7125 32.4211 33.2667 35.7149 37.4188 35.7149H42.4875C42.6146 35.7149 42.7375 35.7149 42.8521 35.7066C43.7087 35.6519 44.5162 35.2876 45.1241 34.6816C45.732 34.0756 46.0989 33.2692 46.1563 32.4128C46.1646 32.2899 46.1646 32.1586 46.1646 32.0378V24.2128C46.1646 24.092 46.1646 23.9607 46.1563 23.8378C46.0989 22.9817 45.7324 22.1756 45.1249 21.5697C44.5174 20.9637 43.7104 20.5992 42.8542 20.5441V20.542ZM36.9729 30.1482C38.0417 30.1482 38.9104 29.2441 38.9104 28.1253C38.9104 27.0066 38.0417 26.1024 36.9729 26.1024C35.9042 26.1024 35.0375 27.0066 35.0375 28.1253C35.0375 29.2441 35.9021 30.1482 36.9729 30.1482Z" fill="#F76D8D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.4875 38.7503C42.5573 38.7479 42.6267 38.7619 42.6901 38.7912C42.7535 38.8204 42.8091 38.8642 42.8525 38.919C42.8959 38.9737 42.9258 39.0378 42.9399 39.1063C42.9539 39.1747 42.9517 39.2454 42.9333 39.3128C42.5292 40.7545 41.8896 41.9837 40.8625 43.017C39.3604 44.5316 37.4542 45.2045 35.1 45.5232C32.8125 45.8337 29.8917 45.8337 26.2 45.8337H21.9563C18.2667 45.8337 15.3438 45.8337 13.0563 45.5232C10.7021 45.2045 8.79585 44.5316 7.29377 43.017C5.79168 41.5045 5.12502 39.5837 4.80835 37.2107C4.50002 34.9045 4.50002 31.9587 4.50002 28.2399V28.0107C4.50002 24.292 4.50002 21.3441 4.80835 19.0399C5.12502 16.667 5.79168 14.7503 7.29168 13.2316C8.79377 11.7191 10.7 11.0441 13.0542 10.7274C15.3438 10.417 18.2667 10.417 21.9563 10.417H26.2C29.8896 10.417 32.8125 10.417 35.1 10.7274C37.4542 11.0462 39.3604 11.7191 40.8625 13.2316C41.8896 14.267 42.5292 15.4962 42.9333 16.9399C42.9513 17.0072 42.9532 17.0777 42.939 17.1458C42.9248 17.214 42.8948 17.2778 42.8515 17.3323C42.8081 17.3868 42.7526 17.4303 42.6894 17.4595C42.6262 17.4887 42.5571 17.5027 42.4875 17.5003H37.4188C31.7229 17.5003 26.7042 22.0357 26.7042 28.1253C26.7042 34.2149 31.725 38.7503 37.4208 38.7503H42.4875ZM12.0292 18.5128C11.8308 18.5136 11.6346 18.5535 11.4516 18.6302C11.2687 18.7069 11.1027 18.8188 10.963 18.9596C10.8233 19.1005 10.7127 19.2674 10.6376 19.451C10.5624 19.6346 10.5242 19.8311 10.525 20.0295C10.525 20.8691 11.1979 21.5482 12.0292 21.5482H20.0625C20.8958 21.5482 21.5688 20.8691 21.5688 20.0295C21.5699 19.6287 21.4119 19.2439 21.1294 18.9595C20.847 18.6751 20.4633 18.5145 20.0625 18.5128H12.0292Z" fill="#F76D8D"/>
+                    <path d="M16.5354 8.38342L20.6146 5.37717C21.6791 4.59022 22.9679 4.16553 24.2917 4.16553C25.6155 4.16553 26.9043 4.59022 27.9688 5.37717L32.0708 8.40009C30.3542 8.33342 28.4375 8.33342 26.3396 8.33342H21.8188C19.8979 8.33342 18.1333 8.33342 16.5354 8.38342Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Pembayaran Mudah</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M27.1183 41.4451L7 24V27.5639C7 28.5083 7.43155 29.4171 8.21244 30.0764L24.2208 43.9576C25.8237 45.3475 28.4335 45.3475 30.0364 43.9576L42.7978 32.8918C44.4007 31.5019 44.4007 29.2389 42.7978 27.849L27.1183 41.4451Z" fill="#F76D8D"/>
+                    <path d="M24.2208 34.9597C25.8237 36.3468 28.4335 36.3468 30.0364 34.9597L42.7978 23.9166C44.4007 22.5296 44.4007 20.2712 42.7978 18.8841L26.7895 5.0314C26.0089 4.3722 24.9621 4.00221 23.8714 4L11.11 4C8.84949 4 7 5.60044 7 7.55654V18.5996C7 19.5421 7.43155 20.449 8.21244 21.107L24.2208 34.9597ZM15.7337 9.33482C16.415 9.33482 17.0683 9.56901 17.5501 9.98587C18.0318 10.4027 18.3024 10.9681 18.3024 11.5577C18.3024 12.1472 18.0318 12.7126 17.5501 13.1294C17.0683 13.5463 16.415 13.7805 15.7337 13.7805C15.0524 13.7805 14.399 13.5463 13.9173 13.1294C13.4356 12.7126 13.165 12.1472 13.165 11.5577C13.165 10.9681 13.4356 10.4027 13.9173 9.98587C14.399 9.56901 15.0524 9.33482 15.7337 9.33482Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Harga Terjangkau</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 4C13.402 4 4 13.402 4 25C4 36.598 13.402 46 25 46C36.598 46 46 36.598 46 25C46 13.402 36.598 4 25 4ZM23.3927 13.8848L24.295 18.0402C21.6511 18.6254 19.2199 19.3866 19.4167 22.3391H22.5237V33.398H13.1644V23.062C13.1678 14.8478 19.1985 14.1795 23.3927 13.8848ZM35.9307 13.8848L36.8356 18.0402C34.1916 18.6254 31.7604 19.3866 31.9573 22.3391H35.0642V33.398H25.705V23.062C25.7083 14.8478 31.7365 14.1795 35.9307 13.8848Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Quote Pilihan</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.7787 18.1943C34.7787 19.074 34.4293 19.9176 33.8072 20.5397C33.1852 21.1617 32.3415 21.5112 31.4618 21.5112C30.5822 21.5112 29.7385 21.1617 29.1165 20.5397C28.4944 19.9176 28.145 19.074 28.145 18.1943C28.145 17.3146 28.4944 16.471 29.1165 15.8489C29.7385 15.2269 30.5822 14.8774 31.4618 14.8774C32.3415 14.8774 33.1852 15.2269 33.8072 15.8489C34.4293 16.471 34.7787 17.3146 34.7787 18.1943Z" fill="#F76D8D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.9227 7H24.7336C20.9043 7 17.9042 7 15.5625 7.3151C13.1677 7.63684 11.2771 8.31016 9.7928 9.7928C8.3085 11.2771 7.63684 13.1677 7.3151 15.5641C7 17.9042 7 20.9043 7 24.7336V24.9227C7 28.752 7 31.7521 7.3151 34.0938C7.63684 36.4885 8.31016 38.3792 9.7928 39.8635C11.2771 41.3477 13.1677 42.0194 15.5641 42.3411C17.9042 42.6562 20.9043 42.6562 24.7336 42.6562H24.9227C28.752 42.6562 31.7521 42.6562 34.0938 42.3411C36.4885 42.0194 38.3792 41.3461 39.8635 39.8635C41.3477 38.3792 42.0194 36.4885 42.3411 34.0921C42.6562 31.7521 42.6562 28.752 42.6562 24.9227V24.7336C42.6562 20.9043 42.6562 17.9042 42.3411 15.5625C42.0194 13.1677 41.3461 11.2771 39.8635 9.7928C38.3792 8.3085 36.4885 7.63684 34.0921 7.3151C31.7521 7 28.752 7 24.9227 7ZM11.5524 11.5524C12.4977 10.6071 13.7747 10.0648 15.8958 9.77953C18.0518 9.49096 20.8844 9.48765 24.8281 9.48765C28.7719 9.48765 31.6045 9.49096 33.7604 9.77953C35.8816 10.0648 37.1602 10.6087 38.1055 11.5524C39.0492 12.4977 39.5915 13.7747 39.8767 15.8958C40.1653 18.0518 40.1686 20.8844 40.1686 24.8281L40.1669 26.9509L39.7988 26.9012C35.0822 26.2477 30.7653 28.6989 28.5679 32.3955C25.732 25.2228 18.2408 20.3305 9.87074 21.5328L9.49594 21.5859C9.51418 19.2558 9.5772 17.4083 9.77953 15.8958C10.0648 13.7747 10.6087 12.4977 11.5524 11.5524Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Galeri Foto</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.4791 25C31.4713 25 29.5299 24.1035 28.0104 22.4766C26.5328 20.8896 25.6305 18.7734 25.4713 16.5195C25.3014 14.1152 26.0348 11.9043 27.5358 10.293C29.0367 8.68164 31.1354 7.8125 33.4791 7.8125C35.8063 7.8125 37.9108 8.69727 39.4069 10.3047C40.9176 11.9277 41.653 14.1348 41.483 16.5186C41.3199 18.7754 40.4186 20.8906 38.944 22.4756C37.4283 24.1035 35.4879 25 33.4791 25ZM46.3531 42.1875H20.6061C20.1921 42.1897 19.7832 42.0969 19.4107 41.9163C19.0382 41.7356 18.7122 41.472 18.4576 41.1455C18.1876 40.7916 18.0012 40.3812 17.9122 39.9451C17.8232 39.5089 17.8341 39.0583 17.944 38.627C18.7662 35.3252 20.8033 32.5869 23.8346 30.709C26.525 29.043 29.9498 28.125 33.4791 28.125C37.0778 28.125 40.4127 29.0039 43.1188 30.6689C46.1569 32.5371 48.1969 35.291 49.0153 38.6328C49.1238 39.0645 49.1334 39.5151 49.0435 39.951C48.9535 40.387 48.7663 40.7969 48.4957 41.1504C48.2414 41.4753 47.9161 41.7377 47.5447 41.9175C47.1734 42.0973 46.7657 42.1896 46.3531 42.1875ZM15.0221 25.3906C11.5856 25.3906 8.56408 22.1953 8.28381 18.2686C8.14514 16.2568 8.77209 14.3965 10.0416 13.0322C11.2975 11.6816 13.069 10.9375 15.0221 10.9375C16.9752 10.9375 18.733 11.6855 19.9957 13.0439C21.275 14.4189 21.9 16.2754 21.7535 18.2705C21.4733 22.1963 18.4528 25.3906 15.0221 25.3906ZM21.4342 28.4619C19.7164 27.6221 17.4869 27.2021 15.0231 27.2021C12.1461 27.2021 9.35217 27.9522 7.1549 29.3135C4.66369 30.8594 2.98791 33.1104 2.31115 35.8281C2.21211 36.219 2.20275 36.6273 2.28375 37.0223C2.36476 37.4174 2.53403 37.789 2.77893 38.1094C3.0113 38.4077 3.30899 38.6487 3.64911 38.814C3.98923 38.9792 4.36271 39.0642 4.74084 39.0625H15.5807C15.7636 39.0625 15.9408 38.9982 16.0812 38.881C16.2217 38.7637 16.3165 38.6009 16.3492 38.4209C16.36 38.3594 16.3737 38.2978 16.3893 38.2373C17.2174 34.9111 19.1578 32.1006 22.025 30.0518C22.1305 29.9757 22.2153 29.8746 22.2718 29.7575C22.3283 29.6405 22.3547 29.5111 22.3486 29.3813C22.3425 29.2514 22.304 29.1251 22.2368 29.0139C22.1696 28.9026 22.0756 28.8099 21.9635 28.7441C21.8102 28.6543 21.6344 28.5596 21.4342 28.4619Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Konten Beragam</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38.5 2H11.5C9.025 2 7 4.025 7 6.5V42.5C7 44.975 9.025 47 11.5 47H38.5C40.975 47 43 44.975 43 42.5V6.5C43 4.025 40.975 2 38.5 2ZM11.5 6.5H22.75V24.5L17.125 21.125L11.5 24.5V6.5Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Reservasi & Buku Tamu</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.0833 6.25016V2.0835H31.5833V6.25016H19.0833ZM23.25 29.1668H27.4167V16.6668H23.25V29.1668ZM25.3333 45.8335C22.7639 45.8335 20.3417 45.3384 18.0667 44.3481C15.7917 43.3578 13.8042 42.0127 12.1042 40.3127C10.4028 38.6113 9.05696 36.6231 8.06668 34.3481C7.0764 32.0731 6.58196 29.6516 6.58335 27.0835C6.58335 24.5141 7.07849 22.0918 8.06876 19.8168C9.05904 17.5418 10.4042 15.5543 12.1042 13.8543C13.8056 12.1529 15.7938 10.8071 18.0688 9.81683C20.3438 8.82655 22.7653 8.33211 25.3333 8.3335C27.4861 8.3335 29.5521 8.68072 31.5313 9.37516C33.5104 10.0696 35.3681 11.0766 37.1042 12.396L40.0208 9.47933L42.9375 12.396L40.0208 15.3127C41.3403 17.0488 42.3472 18.9064 43.0417 20.8856C43.7361 22.8647 44.0833 24.9307 44.0833 27.0835C44.0833 29.6529 43.5882 32.0752 42.5979 34.3502C41.6077 36.6252 40.2625 38.6127 38.5625 40.3127C36.8611 42.014 34.8729 43.3599 32.5979 44.3502C30.3229 45.3404 27.9014 45.8349 25.3333 45.8335Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Countdown Timer</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow" style="background-color: rgba(255, 255, 255, .75); border-radius: 30px; min-height: 300px;">
+                <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.6666 3.125C21.1099 3.13038 16.7413 4.94292 13.5192 8.16504C10.2971 11.3872 8.4845 15.7557 8.47913 20.3125C8.47367 24.0363 9.69004 27.659 11.9416 30.625C11.9416 30.625 12.4104 31.2422 12.4869 31.3312L25.6666 46.875L38.8526 31.3234C38.9213 31.2406 39.3916 30.625 39.3916 30.625L39.3932 30.6203C41.6437 27.6556 42.8595 24.0346 42.8541 20.3125C42.8488 15.7557 41.0362 11.3872 37.8141 8.16504C34.592 4.94292 30.2234 3.13038 25.6666 3.125ZM25.6666 26.5625C24.4305 26.5625 23.2221 26.1959 22.1943 25.5092C21.1665 24.8224 20.3654 23.8463 19.8924 22.7043C19.4193 21.5622 19.2956 20.3056 19.5367 19.0932C19.7779 17.8808 20.3731 16.7672 21.2472 15.8931C22.1213 15.019 23.2349 14.4237 24.4473 14.1826C25.6597 13.9414 26.9164 14.0652 28.0584 14.5383C29.2004 15.0113 30.1766 15.8124 30.8633 16.8402C31.5501 17.868 31.9166 19.0764 31.9166 20.3125C31.9146 21.9695 31.2554 23.558 30.0838 24.7296C28.9121 25.9013 27.3236 26.5604 25.6666 26.5625Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Peta Lokasi</h3>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+    </div>
+    <!--- FITUR END -->
+
+    <!--- CONTACT US START -->
+    <div id="contact" class="p-5" style="height: fit-content; background-color: #F76D8D;">
+        <div class="row h-100 d-flex justify-content-center">
+            <div class="col-lg-6 col-sm-10 my-auto pt-4 pb-2 text-center" style="color: white;">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow text-center" style="background-color: white; border-radius: 30px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.8125 25C30.8047 25 28.8633 24.1035 27.3438 22.4766C25.8662 20.8896 24.9639 18.7734 24.8047 16.5195C24.6348 14.1152 25.3682 11.9043 26.8692 10.293C28.3701 8.68164 30.4688 7.8125 32.8125 7.8125C35.1397 7.8125 37.2442 8.69727 38.7402 10.3047C40.251 11.9277 40.9863 14.1348 40.8164 16.5186C40.6533 18.7754 39.752 20.8906 38.2774 22.4756C36.7617 24.1035 34.8213 25 32.8125 25ZM45.6865 42.1875H19.9395C19.5255 42.1897 19.1166 42.0969 18.7441 41.9163C18.3716 41.7356 18.0456 41.472 17.791 41.1455C17.521 40.7916 17.3345 40.3812 17.2456 39.9451C17.1566 39.5089 17.1675 39.0583 17.2774 38.627C18.0996 35.3252 20.1367 32.5869 23.168 30.709C25.8584 29.043 29.2832 28.125 32.8125 28.125C36.4111 28.125 39.7461 29.0039 42.4522 30.6689C45.4902 32.5371 47.5303 35.291 48.3486 38.6328C48.4572 39.0645 48.4668 39.5151 48.3769 39.951C48.2869 40.387 48.0997 40.7969 47.8291 41.1504C47.5748 41.4753 47.2495 41.7377 46.8781 41.9175C46.5067 42.0973 46.0991 42.1896 45.6865 42.1875ZM14.3555 25.3906C10.919 25.3906 7.89747 22.1953 7.6172 18.2686C7.47853 16.2568 8.10548 14.3965 9.37501 13.0322C10.6309 11.6816 12.4024 10.9375 14.3555 10.9375C16.3086 10.9375 18.0664 11.6855 19.3291 13.0439C20.6084 14.4189 21.2334 16.2754 21.0869 18.2705C20.8067 22.1963 17.7861 25.3906 14.3555 25.3906ZM20.7676 28.4619C19.0498 27.6221 16.8203 27.2021 14.3565 27.2021C11.4795 27.2021 8.68556 27.9522 6.48829 29.3135C3.99708 30.8594 2.3213 33.1104 1.64454 35.8281C1.5455 36.219 1.53614 36.6273 1.61714 37.0223C1.69815 37.4174 1.86742 37.789 2.11232 38.1094C2.34469 38.4077 2.64238 38.6487 2.9825 38.814C3.32262 38.9792 3.6961 39.0642 4.07423 39.0625H14.9141C15.097 39.0625 15.2742 38.9982 15.4146 38.881C15.5551 38.7637 15.6499 38.6009 15.6826 38.4209C15.6934 38.3594 15.707 38.2978 15.7227 38.2373C16.5508 34.9111 18.4912 32.1006 21.3584 30.0518C21.4639 29.9757 21.5487 29.8746 21.6052 29.7575C21.6617 29.6405 21.6881 29.5111 21.682 29.3813C21.6759 29.2514 21.6374 29.1251 21.5702 29.0139C21.503 28.9026 21.409 28.8099 21.2969 28.7441C21.1436 28.6543 20.9678 28.5596 20.7676 28.4619Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Whatsapp</h3>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow text-center" style="background-color: white; border-radius: 30px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.8125 25C30.8047 25 28.8633 24.1035 27.3438 22.4766C25.8662 20.8896 24.9639 18.7734 24.8047 16.5195C24.6348 14.1152 25.3682 11.9043 26.8692 10.293C28.3701 8.68164 30.4688 7.8125 32.8125 7.8125C35.1397 7.8125 37.2442 8.69727 38.7402 10.3047C40.251 11.9277 40.9863 14.1348 40.8164 16.5186C40.6533 18.7754 39.752 20.8906 38.2774 22.4756C36.7617 24.1035 34.8213 25 32.8125 25ZM45.6865 42.1875H19.9395C19.5255 42.1897 19.1166 42.0969 18.7441 41.9163C18.3716 41.7356 18.0456 41.472 17.791 41.1455C17.521 40.7916 17.3345 40.3812 17.2456 39.9451C17.1566 39.5089 17.1675 39.0583 17.2774 38.627C18.0996 35.3252 20.1367 32.5869 23.168 30.709C25.8584 29.043 29.2832 28.125 32.8125 28.125C36.4111 28.125 39.7461 29.0039 42.4522 30.6689C45.4902 32.5371 47.5303 35.291 48.3486 38.6328C48.4572 39.0645 48.4668 39.5151 48.3769 39.951C48.2869 40.387 48.0997 40.7969 47.8291 41.1504C47.5748 41.4753 47.2495 41.7377 46.8781 41.9175C46.5067 42.0973 46.0991 42.1896 45.6865 42.1875ZM14.3555 25.3906C10.919 25.3906 7.89747 22.1953 7.6172 18.2686C7.47853 16.2568 8.10548 14.3965 9.37501 13.0322C10.6309 11.6816 12.4024 10.9375 14.3555 10.9375C16.3086 10.9375 18.0664 11.6855 19.3291 13.0439C20.6084 14.4189 21.2334 16.2754 21.0869 18.2705C20.8067 22.1963 17.7861 25.3906 14.3555 25.3906ZM20.7676 28.4619C19.0498 27.6221 16.8203 27.2021 14.3565 27.2021C11.4795 27.2021 8.68556 27.9522 6.48829 29.3135C3.99708 30.8594 2.3213 33.1104 1.64454 35.8281C1.5455 36.219 1.53614 36.6273 1.61714 37.0223C1.69815 37.4174 1.86742 37.789 2.11232 38.1094C2.34469 38.4077 2.64238 38.6487 2.9825 38.814C3.32262 38.9792 3.6961 39.0642 4.07423 39.0625H14.9141C15.097 39.0625 15.2742 38.9982 15.4146 38.881C15.5551 38.7637 15.6499 38.6009 15.6826 38.4209C15.6934 38.3594 15.707 38.2978 15.7227 38.2373C16.5508 34.9111 18.4912 32.1006 21.3584 30.0518C21.4639 29.9757 21.5487 29.8746 21.6052 29.7575C21.6617 29.6405 21.6881 29.5111 21.682 29.3813C21.6759 29.2514 21.6374 29.1251 21.5702 29.0139C21.503 28.9026 21.409 28.8099 21.2969 28.7441C21.1436 28.6543 20.9678 28.5596 20.7676 28.4619Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Email</h3>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-auto p-4 m-1 shadow text-center" style="background-color: white; border-radius: 30px;">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.8125 25C30.8047 25 28.8633 24.1035 27.3438 22.4766C25.8662 20.8896 24.9639 18.7734 24.8047 16.5195C24.6348 14.1152 25.3682 11.9043 26.8692 10.293C28.3701 8.68164 30.4688 7.8125 32.8125 7.8125C35.1397 7.8125 37.2442 8.69727 38.7402 10.3047C40.251 11.9277 40.9863 14.1348 40.8164 16.5186C40.6533 18.7754 39.752 20.8906 38.2774 22.4756C36.7617 24.1035 34.8213 25 32.8125 25ZM45.6865 42.1875H19.9395C19.5255 42.1897 19.1166 42.0969 18.7441 41.9163C18.3716 41.7356 18.0456 41.472 17.791 41.1455C17.521 40.7916 17.3345 40.3812 17.2456 39.9451C17.1566 39.5089 17.1675 39.0583 17.2774 38.627C18.0996 35.3252 20.1367 32.5869 23.168 30.709C25.8584 29.043 29.2832 28.125 32.8125 28.125C36.4111 28.125 39.7461 29.0039 42.4522 30.6689C45.4902 32.5371 47.5303 35.291 48.3486 38.6328C48.4572 39.0645 48.4668 39.5151 48.3769 39.951C48.2869 40.387 48.0997 40.7969 47.8291 41.1504C47.5748 41.4753 47.2495 41.7377 46.8781 41.9175C46.5067 42.0973 46.0991 42.1896 45.6865 42.1875ZM14.3555 25.3906C10.919 25.3906 7.89747 22.1953 7.6172 18.2686C7.47853 16.2568 8.10548 14.3965 9.37501 13.0322C10.6309 11.6816 12.4024 10.9375 14.3555 10.9375C16.3086 10.9375 18.0664 11.6855 19.3291 13.0439C20.6084 14.4189 21.2334 16.2754 21.0869 18.2705C20.8067 22.1963 17.7861 25.3906 14.3555 25.3906ZM20.7676 28.4619C19.0498 27.6221 16.8203 27.2021 14.3565 27.2021C11.4795 27.2021 8.68556 27.9522 6.48829 29.3135C3.99708 30.8594 2.3213 33.1104 1.64454 35.8281C1.5455 36.219 1.53614 36.6273 1.61714 37.0223C1.69815 37.4174 1.86742 37.789 2.11232 38.1094C2.34469 38.4077 2.64238 38.6487 2.9825 38.814C3.32262 38.9792 3.6961 39.0642 4.07423 39.0625H14.9141C15.097 39.0625 15.2742 38.9982 15.4146 38.881C15.5551 38.7637 15.6499 38.6009 15.6826 38.4209C15.6934 38.3594 15.707 38.2978 15.7227 38.2373C16.5508 34.9111 18.4912 32.1006 21.3584 30.0518C21.4639 29.9757 21.5487 29.8746 21.6052 29.7575C21.6617 29.6405 21.6881 29.5111 21.682 29.3813C21.6759 29.2514 21.6374 29.1251 21.5702 29.0139C21.503 28.9026 21.409 28.8099 21.2969 28.7441C21.1436 28.6543 20.9678 28.5596 20.7676 28.4619Z" fill="#F76D8D"/>
+                </svg>
+                <h3>Website</h3>
+            </div>
+        </div>
+    </div>
+    <!--- CONTACT US END -->
+
+    <!--- FAQ START -->
+    <div id="faq" class="p-5" style="height: fit-content; background-image: linear-gradient(white, #FFEDF1);">
+        <div class="row h-100 d-flex justify-content-center">
+            <div class="col-lg-6 col-sm-10 my-auto pt-4 pb-2 text-center">
+                <h1>FAQ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <div class="row h-100 m-3 d-flex justify-content-center">
+            <div class="col-lg-8 col-sm-12 my-auto p-4 m-1 text-center" style="border-radius: 30px; border: 1px solid #F76D8D;">
+                <h4>Berapa lama undangan jadi?</h4>
+                <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+            </div>
+        </div>
+        <p class="text-center" style="color: #F76D8D;" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Lihat selengkapnya</p>
+
+        <div class="row h-100 m-3">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="w-100 d-flex justify-content-center pb-3">
+                    <div class="col-lg-8 col-sm-12 my-auto p-4 m-1 text-center" style="border-radius: 30px; border: 1px solid #F76D8D;">
+                        <h4>Apakah undangan bisa menggunakan video?</h4>
+                        <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="w-100 d-flex justify-content-center pb-3">
+                    <div class="col-lg-8 col-sm-12 my-auto p-4 m-1 text-center" style="border-radius: 30px; border: 1px solid #F76D8D;">
+                        <h4>Apakah bisa mengundang lebih dari 100 orang?</h4>
+                        <p style="color: #9e9e9e;">Lorem ipsum dolor sit amet consectetur. Dictum vitae facilisi dignissim suspendisse in et mollis.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--- FAQ END -->
+
+    <footer class="p-3 text-center" style="background-color: #F76D8D;">
+        <label style="color: white;">Make your dream wedding come true!</label>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
